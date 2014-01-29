@@ -1,3 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-
+header .main {
+	height: 80px;
+	background: url(img/top.png);
+	z-index: 200;
+	top: 30px;
+	left: 0px !important;
+	position: fixed;
+	width: 100%;
+	display:block;
+}
+test
