@@ -3,6 +3,7 @@
 body {
 	background-color:#000000;
 	font-family: 'Karla', sans-serif;
+	margin:0;
 }
 h1, h2, h3 {
 	font-family: 'Karla', sans-serif;
@@ -10,39 +11,39 @@ h1, h2, h3 {
 section h1, section h2, section h3, h1.articletitle, h2.articletitle {
 	background-color:#1E1E1E;
 	position:relative;
-	left:-50px;
-	padding-left:50px;
 	color:#ffffff;
-	padding-top:10px;
-	padding-bottom:10px;
-	border-top-right-radius:15px;
-	border-bottom-right-radius:15px;
+	left:-10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
 }
 h1.articletitle {
-	font-size:36px;
-	margin-bottom:5px;
+	font-size:24px;
+	margin-bottom:2px;
 }
 h2.articletitle {
-	font-size:24px;
-	margin-top:5px;
+	font-size:16px;
+	margin-top:2px;
 }
 p {
 	font-family: 'Karla', sans-serif;
 }
 .sitebanner {
-	height: 40px;
+	height: 30px;
 	/*background-image:url(img/banner.png);*/
 	background-color:rgba(0,0,0,0.7);
 	/*z-index: 200;*/
 	width: 100%;
 	position:fixed;
-	top:10px;
+	top:0px;
 	left:0px;
 	z-index:1;
 	/*box-shadow:5px 4px 10px 2px gray;*/
 }
 .sitebanner .flag {
-	height: 40px;
+	height: 30px;
 	margin: 0px 0px 0px 0px;
 	float: left;
 	display: inline;
@@ -61,15 +62,17 @@ p {
 .sitebanner .flagtip {
 	width: 0; 
 	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent;
-	border-left: 25px solid #000000;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 20px solid #000000;
 	float:left;
 	display:inline;
 	position:relative;
 }
 nav.sitemenu {
-	float: right;
+	position:fixed;
+	top:30px;
+	background-color:rgba(0,0,0,0.9);
 }
 .sitemenu ul {
 	display:inline;
@@ -82,15 +85,18 @@ nav.sitemenu {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-size: 14px;
+	font-size: 12px;
 	text-align:center;
+}
+.mobile_hidden {
+	display:none;
 }
 .sitemenu a {
 	display:block;
-	width:125px;
-	height:40px;
-	text-wrap:none;
-	line-height:40px;
+	width:76px;
+	height:30px;
+	text-wrap:normal;
+	line-height:30px;
 	color:#D8D8D8;
 	text-decoration:none;
 	font-family: 'Karla', sans-serif;
@@ -111,7 +117,7 @@ nav.sitemenu {
 	position:fixed;
 	top:0;
 	/*height:135px;*/
-	height:60px;
+	height:30px;
 	z-index:1;
 }
 
@@ -119,23 +125,20 @@ nav.sitemenu {
 section:before { 
   display: block; 
   content: " "; 
-  margin-top: -70px; 
-  height: 70px; 
+  margin-top: -40px; 
+  height: 40px; 
   visibility: hidden; 
 }
 
 article {
 	background-color:#D0D0D0;
-	margin-top:100px;
-	margin-left: 25px;
-	margin-right: 25px;
-	padding:25px;
-	margin-bottom:25px;
-	border-radius:50px;
-	box-shadow:10px 10px 5px #FFFFFF;
+	margin-top:70px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding:8px;
+	margin-bottom:5px;
 	min-height:800px;
-	padding-top:45px;
-
+	padding-top:10px;
 }
 
 div.articlemenu {
@@ -252,6 +255,7 @@ table, th, td {
 	border: 1px solid #44667F;
 	border-collapse:collapse;
 	padding:3px;
+	font-size:8px;
 }
 table caption {
 	color:#45596A;
