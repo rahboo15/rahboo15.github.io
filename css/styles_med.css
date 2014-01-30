@@ -10,8 +10,8 @@ h1, h2, h3 {
 section h1, section h2, section h3, h1.articletitle, h2.articletitle {
 	background-color:#1E1E1E;
 	position:relative;
-	left:-100px;
-	padding-left:100px;
+	left:-50px;
+	padding-left:50px;
 	color:#ffffff;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -19,34 +19,34 @@ section h1, section h2, section h3, h1.articletitle, h2.articletitle {
 	border-bottom-right-radius:15px;
 }
 h1.articletitle {
-	font-size:48px;
+	font-size:36px;
 	margin-bottom:5px;
 }
 h2.articletitle {
-	font-size:36px;
+	font-size:24px;
 	margin-top:5px;
 }
 p {
 	font-family: 'Karla', sans-serif;
 }
 .sitebanner {
-	height: 60px;
+	height: 40px;
 	/*background-image:url(img/banner.png);*/
 	background-color:rgba(0,0,0,0.7);
 	/*z-index: 200;*/
 	width: 100%;
 	position:fixed;
-	top:15px;
+	top:10px;
 	left:0px;
 	z-index:1;
 	/*box-shadow:5px 4px 10px 2px gray;*/
 }
 .sitebanner .flag {
-	height: 60px;
+	height: 40px;
 	margin: 0px 0px 0px 0px;
 	float: left;
 	display: inline;
-	width: 300px;
+	width: 170px;
 	position: relative;
 	background-color:#000000;
 }
@@ -54,14 +54,16 @@ p {
 	font-weight:100;
 	color:#FFFFFF;
 	padding-left:30px;
-	margin-top:11px;
+	margin-top:9px;
+	font-size:15px;
+	font-weight:bold;
 }
 .sitebanner .flagtip {
 	width: 0; 
 	height: 0; 
-	border-top: 30px solid transparent;
-	border-bottom: 30px solid transparent;
-	border-left: 40px solid #000000;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 25px solid #000000;
 	float:left;
 	display:inline;
 	position:relative;
@@ -80,15 +82,15 @@ nav.sitemenu {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 14px;
 	text-align:center;
 }
 .sitemenu a {
 	display:block;
-	width:150px;
-	height:60px;
+	width:125px;
+	height:40px;
 	text-wrap:none;
-	line-height:60px;
+	line-height:40px;
 	color:#D8D8D8;
 	text-decoration:none;
 	font-family: 'Karla', sans-serif;
@@ -109,7 +111,7 @@ nav.sitemenu {
 	position:fixed;
 	top:0;
 	/*height:135px;*/
-	height:90px;
+	height:60px;
 	z-index:1;
 }
 
@@ -117,31 +119,32 @@ nav.sitemenu {
 section:before { 
   display: block; 
   content: " "; 
-  margin-top: -90px; 
-  height: 90px; 
+  margin-top: -70px; 
+  height: 70px; 
   visibility: hidden; 
 }
 
 article {
 	background-color:#D0D0D0;
-	margin-top:140px;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding:75px;
+	margin-top:100px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding:25px;
 	margin-bottom:25px;
-	border-radius:100px;
+	border-radius:50px;
 	box-shadow:10px 10px 5px #FFFFFF;
 	min-height:800px;
 	padding-top:45px;
+
 }
 
 div.articlemenu {
 	background:linear-gradient(rgba(125, 129, 114, .9), rgba(128, 131, 119, .85));
-	opacity:.3;
+	opacity:.15;
 	border-radius:5px;
 	box-shadow:5px 5px 5px #000000;
 	position:fixed;
-	top:130px;
+	top:100px;
 	right:30px;
 	transition:all .5s;
 	padding-bottom:5px;
