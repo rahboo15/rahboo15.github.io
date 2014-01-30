@@ -26,7 +26,7 @@ h2.articletitle {
 	margin-top:5px;
 }
 p {
-	font-family: 'Stoke', serif;
+	font-family: 'Karla', sans-serif;
 }
 .sitebanner {
 	height: 60px;
@@ -213,6 +213,7 @@ ol.articlenav li a {
 	text-wrap:none;
 	text-decoration:none;
 	border-radius:5px;
+	font-family: 'Karla', sans-serif;
 }
 ol.articlenav li a:hover {
 	background-color:#FFFFFF;
