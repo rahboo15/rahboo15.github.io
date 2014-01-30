@@ -223,6 +223,7 @@ ol.articlenav li a:hover {
 }
 article img {
 	box-shadow:5px 4px 10px 2px gray;
+	max-width:100%;
 }
 img.center {
 	display: block;
@@ -257,5 +258,8 @@ table caption {
 }
 .floatright {
 	float:right;
+}
+figcaption {
+	color:#45596A;
 }
 
