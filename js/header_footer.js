@@ -47,15 +47,15 @@ function getActivePage () {
 }
 
 function setActiveComponents (pageName){
-	if (pageName === "index"){
-		document.getElementById("techbloglink").className = "current";
-		document.title = "Tech Dishes";
+	if (pageName === "about"){
+		document.getElementById("aboutbloglink").className = "current";
+		document.title = "About";
 	}else if (pageName === "foodblog"){
 		document.getElementById("foodbloglink").className = "current";
 		document.title = "Food Dishes";
 	}else {
-		document.getElementById("aboutbloglink").className = "current";
-		document.title = "About";
+		document.getElementById("techbloglink").className = "current";
+		document.title = "Tech Dishes";
 	}
 }
 
