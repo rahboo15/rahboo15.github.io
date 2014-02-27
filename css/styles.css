@@ -18,6 +18,9 @@ section h1, section h2, section h3, h1.articletitle, h2.articletitle {
 	border-top-right-radius:15px;
 	border-bottom-right-radius:15px;
 }
+section div h3{
+	background-color:#5b0011;
+}
 h1.articletitle {
 	font-size:48px;
 	margin-bottom:5px;
@@ -282,4 +285,3 @@ footer a {
 	margin-left:5px;
 	margin-right:5px;
 }
-

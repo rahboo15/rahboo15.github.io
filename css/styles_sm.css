@@ -19,6 +19,12 @@ section h1, section h2, section h3, h1.articletitle, h2.articletitle {
 	border-top-right-radius:10px;
 	border-bottom-right-radius:10px;
 }
+section h2 {
+	padding-left: 35px;
+}
+section div h3{
+	background-color:#5b0011;
+}
 h1.articletitle {
 	font-size:24px;
 	margin-bottom:2px;

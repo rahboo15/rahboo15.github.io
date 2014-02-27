@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* 
+CSS Document 
+JQuery Specific Style Sheet
+*/
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+.ui-icon {
+	width: 16px;
+	height: 16px;
+	background-position: 16px 16px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-icon {
+	background-image: url(images/ui-icons_454545_256x240_Invert.png)/*{iconsActive}*/;
+}
+.ui-icon-triangle-1-e { background-position: -32px -16px; }
+.ui-icon-triangle-1-s { background-position: -64px -16px; }
+
+
+
